@@ -87,6 +87,9 @@ body {
   align-items: flex-end;
   flex-wrap: wrap;
   gap: 12px 32px;
+}
+
+.rule, .legal {
   font-size: 10.5px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -156,9 +159,7 @@ body {
 
 .legal {
   max-width: 960px;
-  font-size: 11px;
   line-height: 1.8;
-  color: var(--dim);
   overflow-wrap: anywhere;
 }
 
