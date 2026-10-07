@@ -149,12 +149,11 @@ body {
   text-wrap: pretty;
 }
 
-/* ── Footer ───────────────────────────────────────────────────────────── */
+/* ── Legal information ────────────────────────────────────────────────── */
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.legal-title {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 500;
 }
 
 .legal {

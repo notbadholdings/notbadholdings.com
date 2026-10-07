@@ -1,10 +1,11 @@
 # notbadholdings.com
 
-The landing page for Not Bad Holdings. One static page, no build step, no
+The landing page and legal information for Not Bad Holdings. Static HTML, no build step, no
 external requests — open `index.html` in a browser and it works.
 
 ```
 index.html                     markup + meta
+legal-info/index.html          company details at /legal-info/
 styles.css                     tokens, wordmark, layout
 assets/
   icon-128.png                 favicon / apple-touch-icon
