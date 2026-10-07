@@ -146,6 +146,24 @@ body {
   text-wrap: pretty;
 }
 
+/* ── Footer ───────────────────────────────────────────────────────────── */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.legal {
+  max-width: 960px;
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--dim);
+  overflow-wrap: anywhere;
+}
+
+.legal p + p { margin-top: 4px; }
+
 /* ── Links ────────────────────────────────────────────────────────────── */
 
 a {
